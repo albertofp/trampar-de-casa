@@ -5,6 +5,8 @@ services:
     build:
       context: .
       dockerfile: ./apps/web/Dockerfile
+    command:
+        turbo dev --concurrency 12
     volumes:
       - ./:/app/
     ports: 
