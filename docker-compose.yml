@@ -1,0 +1,17 @@
+version: "3"
+services:
+  web:
+    container_name: trampardecasa-web
+    build:
+      context: .
+      dockerfile: ./apps/web/Dockerfile
+    volumes:
+      - ./:/app/
+    ports: 
+      - 3000:3000
+    networks:
+      - trampar_network
+
+
+networks:
+  trampar_network:

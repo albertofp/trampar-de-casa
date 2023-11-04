@@ -1,0 +1,13 @@
+**/Dockerfile
+**/.dockerignore
+**/docker-compose.yml
+
+**/*.md
+**/*.log
+**/node_modules
+auto-email-sender-compose.yml
+**/LICENSE
+**/analytics
+**/*.example
+.git
+.gitignore
